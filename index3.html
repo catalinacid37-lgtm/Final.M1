@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether Beauty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style3.css">
+</head>
+<body>
+   <header>
+ <div> 
+    <h1>Envios internacionales gratis por compras sobre $50+ USD</h1>
+  </div>
+
+    <!--navbar original -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+       <div class="container-fluid position-relative d-flex align-items-center">
+       
+        <button class="navbar-toggler me-auto" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <h2 class="position-absolute top-50 start-50 translate-middle m-0">
+      <a href="index.html" target="_blank">
+      <img src="assets/img/1000115964.png" alt="Aether Beauty" width="250">
+      </a>   
+    </h2>
+    <aside class="ms-auto d-flex align-items-center gap-2">
+  <button id="btnarrow" class="btn btn-transparent">
+      <img src="assets/img/esquema-del-boton-de-flecha-cuadrada-de-inicio-de-sesion.png" width="20" alt="inicio de sesion">
+      </button>
+      <button id="btncard" class="btn btn-transparent" >
+       <img src="assets/img/bolsa-de-la-compra.png" width="20" alt="carrito">
+       </button>
+    </aside>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link active" href="index2.html">Lo más vendido <img src="assets/img/flecha2 (1).png" alt=" flecha"> </a></li>
+          <li class="nav-item"><a class="nav-link" href="index2.html">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index3.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Makeup</a>
+          </li>
+        </ul>
+
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <a href="index2.html" target="_blank">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          </a>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<div class="container my-5">
+  <div class="row align-items-center">
+
+    <!-- Carrusel -->
+    <div class="col-md-6">
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Imágenes -->
+        <div class="carousel-inner rounded-4 shadow">
+          <div class="carousel-item active">
+            <img src="assets/img/hauslabs(1).png" class="d-block w-100" alt="Haus labs blush">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hauslabs(2).png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/hauslabs(3).png" class="d-block w-100" alt="">
+          </div>
+        </div>
+
+        <!-- Flechas -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Info Producto -->
+    <div class="col-md-6">
+      <h2 class="fw-bold">Haus Labs by. Lady Gaga </h2>
+      <p class="text-muted">Color fuse longwear Hidratante glassy lip + ckeek blush balm stick</p>
+      <p class="text-muted"> Disponibilidad : 5 unidades</p>
+      <h4 class="fw-bold">$34.990</h4>
+      <div class="rating-outline mb-2">
+        ★★★★★
+  <span class="ms-2 small">(124 reseñas)</span>
+</div>
+       
+      <div class="text-muted">
+        <p>Color: Glassy lilac -  lavanda </p>
+        <p>Peso: 5g </p>
+        <p>acabado luminoso - tamaño estandar</p>
+      </div>
+
+      <button class="btn btn-dark w-100 mt-3">Agregar al carrito</button>
+    </div>
+
+  </div>
+</div>
+<br>
+<hr>
+</header>
+<main>
+ <section>
+  <div class="accordion mt-4" id="accordionProducto">
+<p class="text-bg"> Diseñados para ir juntos </p>
+
+
+<div class="row row-cols-1 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <div class="row g-0 align-items-center">
+
+    
+        <div class="col-md-4">
+          <img src="assets/img/brush-1.webp" class="img-fluid rounded-start" alt="brocha mk by.mario">
+        </div>
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Make up by. Mario</h5>
+            <p class="card-text">
+              F4 Dual-Ended Foundation and Face Brush</p>
+              <p> ★★★★☆  </p>
+              <p><strong>$ 37.990</strong></p>
+             <button class="btn btn-dark w-100 mt-3" type="button">Agregar al carrito</button>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+  <div class="accordion-item border-0 border-bottom">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#descripcion">
+        Descripción
+      </button>
+    </h2>
+    <div id="descripcion" class="accordion-collapse collapse" data-bs-parent="#accordionProducto">
+      <div class="accordion-body text-muted small">
+        Qué es: Un bálsamo labial y labial multiusos de larga duración que se desliza suavemente y proporciona un color cristalino modulable en una barra cremosa fácil de usar.
+      </div>
+    </div>
+  </div>
+
+  <!-- INGREDIENTES -->
+  <div class="accordion-item border-0 border-bottom">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#ingredientes">
+        Ingredientes
+      </button>
+    </h2>
+    <div id="ingredientes" class="accordion-collapse collapse" data-bs-parent="#accordionProducto">
+      <div class="accordion-body text-muted small">
+        <ul>
+        <li> - Árnica fermentada: Reduce visiblemente el enrojecimiento y la irritación. </li>
+        <li> - Complejo de bayas de goji: Aumenta la luminosidad y deja la piel con un aspecto más terso. </li>
+        <li> - Shiunko fermentado: Promueve la síntesis de colágeno y la protección antioxidante.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+ </section>
+ <article>
+<div class="container my-5">
+  <h4 class="fw-bold mb-4">Reseñas de clientes</h4>
+
+  <!-- RESUMEN -->
+  <div class="d-flex align-items-center mb-4 gap-2">
+    <div class="rating-outline">★★★★★</div>
+    <span class="text-muted">4.9 de 5 · 124 reseñas</span>
+  </div>
+
+  <!-- LISTA DE RESEÑAS -->
+  <div class="review-box mb-4">
+    <div class="d-flex justify-content-between">
+      <strong>Camila R.</strong>
+      <span class="text-muted small">Hace 2 días</span>
+    </div>
+
+    <div class="rating-outline small-stars">★★★★★</div>
+
+    <p class="mt-2 mb-0 text-muted">
+      Hermoso brillo, no es pegajoso y deja los labios súper hidratados. Lo volvería a comprar sin duda.
+    </p>
+  </div>
+
+  <div class="review-box mb-4">
+    <div class="d-flex justify-content-between">
+      <strong>Valentina M.</strong>
+      <span class="text-muted small">Hace 1 semana</span>
+    </div>
+
+    <div class="rating-outline small-stars">★★★★☆</div>
+
+    <p class="mt-2 mb-0 text-muted">
+      El color es precioso, solo me gustaría que durara un poco más.
+    </p>
+  </div>
+
+  <!-- FORMULARIO DE RESEÑA -->
+  <h5 class="fw-bold mt-5 mb-3">Escribe tu reseña</h5>
+
+  <form class="review-form">
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Tu nombre" required>
+    </div>
+
+    <div class="mb-3">
+      <textarea class="form-control" rows="3" placeholder="Tu opinión del producto..." required></textarea>
+    </div>
+
+    <!-- ESTRELLAS INTERACTIVAS -->
+    <div class="rating-stars mb-3">
+      <span class="star" data-value="1">★</span>
+      <span class="star" data-value="2">★</span>
+      <span class="star" data-value="3">★</span>
+      <span class="star" data-value="4">★</span>
+      <span class="star" data-value="5">★</span>
+      <span class="ms-2 small text-muted" id="ratingValue">(0/5)</span>
+    </div>
+
+    <button type="submit" class="btn btn-dark">Enviar reseña</button>
+  </form>
+</div>
+ </article>
+</main>
+
+<footer>
+ <div class="fondo">
+      <p> <img src="assets/img/chile.png"> Chile | clp</p>
+      <button type="button" class="btn btn-outline-light">Accesibilidad</button>
+      <br>
+       <div class="bajo">
+       <p>© 2025 Aether Beauty. Todos los derechos reservados Aether S.A.</p>
+      </div>
+   </div>
+
+
+<a class="anclado">
+   <button id="btnUp" class=" btn btn-transparent">
+    <img src="assets/img/Subir-boton.png" alt="subir-boton" width="20px" height="20px">
+   </button>
+</a>
+
+
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  <script src="assets/js/app3.js"></script>
+
+</body>
+</html>

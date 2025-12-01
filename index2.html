@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+  <header>
+  <div> 
+    <h1>Envios internacionales gratis por compras sobre $50+ USD</h1>
+
+  </div>
+
+   <nav class="navbar bg-body-tertiary fixed-top">
+       <div class="container-fluid position-relative d-flex align-items-center">
+       
+        <button class="navbar-toggler me-auto" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <h2 class="position-absolute top-50 start-50 translate-middle m-0">
+      <a href="index.html" target="_blank">
+      <img src="assets/img/1000115964.png" alt="Aether Beauty" width="250">
+      </a>
+    </h2>
+    <aside class="ms-auto d-flex align-items-center gap-2">
+      <button id="btnTop" class="btn btn-transparent">
+      <img src="assets/img/esquema-del-boton-de-flecha-cuadrada-de-inicio-de-sesion.png" width="20" alt="inicio de sesion">
+      </button>
+      <button id="btnTop" clas="btn btn-transparent" >
+       <img src="assets/img/bolsa-de-la-compra.png" width="20" alt="carrito">
+       </button>
+    </aside>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link active" href="index2.html">Lo más vendido <img src="assets/img/flecha2 (1).png" alt=" flecha>" </a></li>
+          <li class="nav-item"><a class="nav-link" href="index2.html">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index3.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Makeup</a>
+          </li>
+        </ul>
+
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <a href="index2.html" target="_blank">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          </a>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</nav>
+</header>
+   
+  <div class="marquis">
+    <marquee behavior="scroll" direction="left" scrollamount="5"> 🟆 ¡Nuevos! Descuentos exclusivos por tiempo limitado 🟆Belleza elevada a su máxima expresión 🟆 </marquee>
+</div> 
+
+   <section class="container my-5">
+  <div class="card text-bg-dark">
+  <h2 class="text-center mb-4">Nuestros Productos</h2>
+  <img src="assets/img/ari black & with.png" class="card-img" alt="Ari b&w">
+  <div class="card-img-overliner">
+  </div>
+  </div>
+
+  <!--ordernar por: -->
+    <div class="container my-4">
+  <div class="d-flex flex-wrap gap-2 align-items-center justify-content-between bg-light p-3 rounded shadow-sm">
+
+   
+    <div class="d-flex align-items-center gap-2">
+      <label for="ordenarProducto">Ordenar por:</label>
+      <select id="ordenarProducto" class="form-select form-select-sm w-auto">
+        <option value="">Seleccionar</option>
+        <option value="precio">Precio</option>
+        <option value="categoria">Categoría</option>
+        <option value="tipo">Tipo</option>
+        <option value="marca">Marca</option>
+      </select>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <label for="ordenarNombre">Nombre:</label>
+      <select id="ordenarNombre" class="form-select form-select-sm w-auto">
+        <option value="az">A - Z</option>
+        <option value="za">Z - A</option>
+      </select>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="row g-4"  id="productos">
+
+    <!-- Producto 1 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/ysl1.webp" class="card-img-top" alt="set YSL">
+        <div class="card-body text-center">
+          <p><strong>YSL</strong></p>
+          <h5 class="card-title">YSL Iconic Pink Make Me Blush & Loveshine Lip Oil Stick Se</h5>
+          <p class="card-text">$64.990</p>
+          <a href="index3.html" class="btn btn-dark w-100" aria-label=" agregar producto de YSL">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/tower28.webp" class="card-img-top" alt="lip oil">
+        <div class="card-body text-center">
+          <p><strong>Tower 28 Beauty</strong></p>
+          <h5 class="card-title">ShineOn Lip Jelly Hydrating Non-Sticky Lip Oil</h5>
+          <p class="card-text">$16.990</p>
+          <a href="index3.html" class="btn btn-dark w-100" aria-label=" agregar producto tower 28">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+    <!--producto 3-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/shiseido.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>shiseido</strong></p>
+          <h5 class="card-title">Eyelash Curler</h5>
+          <p class="card-text">$27.990</p>
+          <a href="index3.html" class="btn btn-dark w-100" aria-label="Agregar producto de shiseido">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+ <!--producto 4-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/saie.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Saie</strong></p>
+          <h5 class="card-title">Glowy Super Gel Lightweight Dewy Multipurpose Illuminator</h5>
+          <p class="card-text">$28.990</p>
+          <a href="index3.html" class="btn btn-dark w-100" aria-label="agregar producto de saie">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 5-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/onesize.1.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>One/Size by. Patrick star</strong></p>
+          <h5 class="card-title">Lip Snatcher Waterproof Precision Lip Liner</h5>
+          <p class="card-text">$14.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 6-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/NDenona.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Natasha denona</strong></p>
+          <h5 class="card-title">Essential eyeshadow duo</h5>
+          <p class="card-text">$30.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 7-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/makeuobymPa.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>By. Mario</strong></p>
+          <h5 class="card-title">Ethereal Eyes™ Eyeshadow Palette: Nature</h5>
+          <p class="card-text">$55.200</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 8-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/lys.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>LYS Beauty</strong></p>
+          <h5 class="card-title">No Limits Cream Bronzer and Contour Stick</h5>
+          <p class="card-text">$22.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+
+     <!--producto 9-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/ilia.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Ilia</strong></p>
+          <h5 class="card-title">The Ethereal Baked Face Palette - Long-Wear Bronzer, Highlighter & Blush</h5>
+          <p class="card-text">$59.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+
+     <!--producto 10-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/huda-polvo.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Huda Beauty</strong></p>
+          <h5 class="card-title">Mini Easy Bake Loose Baking & Setting Powder</h5>
+          <p class="card-text">$23.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 11-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/hoola.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Benefit Cosmetics</strong></p>
+          <h5 class="card-title">Hoola Matte Powder Bronzer</h5>
+          <p class="card-text">$18.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 12-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/glowrecipe.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Glow recipe</strong></p>
+          <h5 class="card-title">Watermelon Glow Niacinamide Dew Drops Serum</h5>
+          <p class="card-text">$36.800</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 13-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/gisou.jpg" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Gisou</strong></p>
+          <h5 class="card-title">Honey Infused Hydrating Lip Oil</h5>
+          <p class="card-text">$28.700</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 14-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/fentybeautylips.ch.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Fenty beauty by. rihanna</strong></p>
+          <h5 class="card-title">Gloss Bomb Stix High-Shine Gloss Stick</h5>
+          <p class="card-text">$26.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 15-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/dior.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Dior</strong></p>
+          <h5 class="card-title">Dior Addict Lip Maximizer Plumping Gloss</h5>
+          <p class="card-text">$42.000</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+
+     <!--producto 16-->
+    <div class="col-md-3 col-sm-6">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/gisu/anastasia.webp" class="card-img-top" alt="Producto">
+        <div class="card-body text-center">
+          <p><strong>Anastasia Beverly Hills</strong></p>
+          <h5 class="card-title">Clear Brow Gel Flexible Medium-Hold Eyebrow Setter</h5>
+          <p class="card-text">$12.990</p>
+          <a href="index3.html" class="btn btn-dark w-100">Agregar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+<footer>
+
+   <div class="fondo">
+      <p> <img src="assets/img/chile.png"> Chile | clp</p>
+      <button type="button" class="btn btn-outline-light">Accesibilidad</button>
+      <br>
+      <div class="bajo">
+       <p>© 2025 Aether Beauty. Todos los derechos reservados Aether S.A.</p>
+      </div>
+
+   </div>
+
+<a class="anclado">
+   <button id="btnUp" class=" btn btn-transparent">
+    <img src="assets/img/Subir-boton.png" alt="subir-boton" width="20px" height="20px">
+   </button>
+</a>
+
+
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  <script src="assets/js/app2.js"></script>
+</body>
+</html>

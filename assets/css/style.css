@@ -1,0 +1,142 @@
+@media only screen and (min-width: 576px)  {
+    h1 { font-size: 2rem ;}
+    /*  tablet pequeno */}
+
+@media only screen and (min-width: 992px) {
+    h1 { font-size: 3rem;}
+    /*estilo para escritorio*/ }
+
+body {
+  background-color: rgb(243, 200 ,221);
+  color: black;
+}
+
+body div h1 {
+  text-align: center;
+  text-overflow: clip;
+  font-style: italic;
+  font-size:small;
+  background-color: rgb(113,85,122);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+}
+
+.navbar .collapse{
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: inherit;
+  z-index: 1000;
+}
+
+article h3 { 
+  text-overflow: clip;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.explorar p{
+  font-size:medium;
+  color: #212021;
+}
+.seleccionados p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3a345b;
+  font-size: 1rem;
+  font-style: oblique;
+  text-align: center;
+  text-decoration:overline;
+}
+
+.comunidad h3{
+  font-family:Georgia, 'Times New Roman';
+  font-style: oblique;
+  color: #4b1535;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+.card h5{
+   text-overflow: clip;
+  color: rgb(255, 255, 255);
+}
+
+ .Cards-horizontales{    
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 1rem;
+}
+
+  .Cards-horizontales .card {
+  flex: 0 0 auto;
+}
+
+.comunidad video {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+footer aside{
+  background-color: rgb(113,85,122);
+}
+
+footer h6{ 
+  text-align: center;
+  overflow: hidden ;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size:smaller;
+  color:#4b1535;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.accordion-button {
+  background-color: #71557a; /* color negro con 20% de opacidad */
+  color: #ffffff; /* texto blanco */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #593a5e; 
+  color: #ffffff;
+}
+
+.accordion-body {
+  background-color: #71557a;
+  color: #ffffff; 
+}
+
+.fondo {
+  text-align: center ;
+  padding: 10px;
+}
+
+.bajo { 
+  text-align: center;
+  
+
+}
+
+ .anclado
+#btnUp{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+marquee {
+  background-color: #3a345b;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+
+}
