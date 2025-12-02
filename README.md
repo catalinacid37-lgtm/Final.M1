@@ -21,8 +21,7 @@ todos los profuctos del listado llevan directamente a la descripcion/ pagina de 
 - Listado de productos en tarjetas con botón de compra
 - Página de detalle de producto
 - Footer con información de la tienda
-- contiene cards, caroucel, boton de desplazamiento, deplegables, etc. 
-
+- Uso de cards, carousel, botón de desplazamiento, menús desplegables, entre otros elementos
 ## Capturas
 ![Home](assets/img/Captura de pantalla 2025-12-01 151536.png)
 ![Detalle](assets/img/Captura de pantalla 2025-12-01 151724.png)
